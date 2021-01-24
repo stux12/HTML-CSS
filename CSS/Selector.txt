@@ -1,0 +1,41 @@
+:link	사용자가 아직 한 번도 해당 링크를 통해서 연결된 페이지를 방문하지 않은 상태를 모두 선택함. (기본 상태)
+:visited	사용자가 한 번이라도 해당 링크를 통해서 연결된 페이지를 방문한 상태를 모두 선택함.
+:hover	사용자의 마우스 커서가 링크 위에 올라가 있는 상태를 모두 선택함.
+:active	사용자가 마우스로 링크를 클릭하고 있는 상태를 모두 선택함.
+:focus	초점이 맞춰진 input 요소를 모두 선택함.
+:checked	체크된(checked) 상태의 input 요소를 모두 선택함.
+:enabled	사용할 수 있는 input 요소를 모두 선택함.
+:disabled	사용할 수 없는 input 요소를 모두 선택함.
+:target	현재 활성화된 target 요소를 모두 선택함.
+:in-range	특정 범위 내의 값을 가지는 input 요소를 모두 선택함.
+:out-of-range	특정 범위를 벗어나는 값을 가지는 input 요소를 모두 선택함.
+:read-only	readonly 속성을 가지는 input 요소를 모두 선택함.
+:read-write	readonly 속성을 가지지 않는 input 요소를 모두 선택함.
+:required	required 속성을 가지는 input 요소를 모두 선택함.
+:optional	required 속성을 가지지 않는 input 요소를 모두 선택함.
+:valid	유효한 값을 가지는 input 요소를 모두 선택함.
+:invalid	유효하지 않은 값을 가지는 input 요소를 모두 선택함.
+:first-child	모든 자식(child) 요소 중에서 첫 번째에 위치하는 자식(child) 요소를 모두 선택함.
+:last-child	모든 자식(child) 요소 중에서 마지막에 위치하는 자식(child) 요소를 모두 선택함.
+:nth-child	모든 자식(child) 요소 중에서 앞에서부터 n번째에 위치하는 자식(child) 요소를 모두 선택함.
+:nth-last-child	모든 자식(child) 요소 중에서 뒤에서부터 n번째에 위치하는 자식(child) 요소를 모두 선택함.
+:first-of-type	모든 자식(child) 요소 중에서 첫 번째로 등장하는 특정 요소를 모두 선택함.
+:last-of-type	모든 자식(child) 요소 중에서 마지막으로 등장하는 특정 요소를 모두 선택함.
+:nth-of-type	모든 자식(child) 요소 중에서 n번째로 등장하는 특정 요소를 모두 선택함.
+:nth-last-of-type	모든 자식(child) 요소 중에서 뒤에서부터 n번째로 등장하는 특정 요소를 모두 선택함.
+:only-child	자식(child) 요소를 단 하나만 가지는 모든 요소의 자식(child) 요소를 선택함.
+:only-of-type	자식(child)  요소를 특정 요소 단 하나만 가지는 모든 요소의 자식(child) 요소를 선택함.
+:empty	아무런 자식(child) 요소도 가지지 않는 요소를 모두 선택함.
+:root	문서의 root 요소를 선택함.
+:not(선택자)	모든 선택자와 함께 사용할 수 있으며, 해당 선택자를 반대로 적용함.
+:lang(언어)	특정 요소를 언어 설정에 따라 다르게 표현할 때에 사용함.
+
+
+
+
+
+::first-letter	텍스트의 첫 글자만을 선택함.
+::first-line	텍스트의 첫 라인만을 선택함.
+::before	특정 요소의 내용(content) 부분 바로 앞에 다른 요소를 삽입할 때 사용함.
+::after	특정 요소의 내용(content) 부분 바로 뒤에 다른 요소를 삽입할 때 사용함.
+::selection	해당 요소에서 사용자가 선택한 부분만 선택함.

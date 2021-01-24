@@ -1,0 +1,3 @@
+body{
+color: rgba(red, green, blue, 투명도);
+color: #48533e;

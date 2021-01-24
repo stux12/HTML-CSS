@@ -1,0 +1,27 @@
+display 속성
+1. 블록(block) : display 속성값이 블록(block)인 요소는 언제나 새로운 라인(line)에서 시작하며, 해당 라인의 모든 너비를 차지합니다.
+                    <div>, <h1>, <p>, <ul>, <ol>, <form>요소는 대표적인 블록(block) 요소입니다.
+                    
+2. 인라인(inline) : display 속성값이 인라인(inline)인 요소는 새로운 라인(line)에서 시작하지 않습니다.
+                       <span>, <a>, <img>요소는 대표적인 인라인(inline) 요소입니다.
+
+3.인라인-블록(inline-block)
+
+
+visibility 속성
+1. visible : 해당 HTML 요소를 웹 페이지에 나타냅니다.
+
+2. hidden : HTML 요소를 웹 페이지에 나타내지 않습니다. 하지만 여전히 웹 페이지의 레이아웃에는 존재합니다.
+
+3. collapse : 이 속성값은 동적인 테이블에서만 사용할 수 있으며, 테이블의 테두리를 한 줄만 보여줍니다.
+
+
+HTML 요소 숨기기
+HTML 요소를 숨기기 위해서는 display 속성값을 none으로 설정하면 됩니다.
+
+
+opacity 속성
+opacity 속성값은 0.0부터 1.0까지 설정할 수 있으며, 속성값이 0에 가까울수록 투명한 상태가 됩니다.
+filter:alpha(opacity=x)
+x값은 0부터 100까지 설정할 수 있으며, x값이 0에 가까울수록 투명한 상태가 됩니다.
+

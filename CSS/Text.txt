@@ -1,0 +1,13 @@
+color 텍스트의 색상을 설정함.
+direction 텍스트가 쓰이는 방향을 설정함.
+letter-spacing 텍스트 내에서 문자 사이의 간격을 설정함.
+word-spacing 텍스트 내에서 단어 사이의 간격을 설정함.
+text-indent 단락의 첫 줄을 들여쓰기할지 안 할지를 설정함.
+text-align 텍스트의 수평 방향 정렬을 설정함.
+text-decoration 텍스트에 여러 가지 효과를 설정하거나 제거함.
+text-transform 텍스트에 포함된 영문자에 대한 대소문자를 설정함.
+line-height 텍스트의 줄 간격을 설정함.
+text-shadow 텍스트에 그림자 효과를 설정함.
+unicode-bidi direction 속성과 같이 사용하여 텍스트의 기본 출력 방향을 설정함.
+vertical-align HTML 요소 내의 수직 방향 정렬을 설정함.
+white-space HTML 요소 내의 여백을 설정함.
